@@ -11,7 +11,7 @@ export default function App() {
     return (
         <View style={styles.container}>
 
-            <Text style={styles.title}>Приложение TODO</Text>
+            <Text style={styles.title}>Приложение TODOS</Text>
             <Text style={styles.line}></Text>
             {arrayOfTodo.length === 0 ? <Text style={styles.titleInput}>Пожалуйста введите вашу первую Задачу</Text>
                 :
