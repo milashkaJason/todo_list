@@ -69,23 +69,12 @@ export default function CheckedPage({navigation}) {
                     is_render_add_new_task={is_render_add_new_task}
                     changeIsRenderInput={changeIsRenderInput}/>
 
-                {is_render_add_new_task ?
-                    <AddNewTask
-                        onChangeText={onChangeText}
-                        pushItem={pushItem}
-                        is_render_data_piker={is_render_data_piker}
-                        chosenDate={chosenDate}
-                        setChangedDate={setChangedDate}
-                        changeIsRenderDataPiker={changeIsRenderDataPiker}
-                        currentValue={currentValue}
-                        visibility_chosen_date={visibility_chosen_date}/>
-                    :
                     <ListTasks
                         arrayOfTodo={arrayOfTodo}
                         chosenDate={chosenDate}
                         deleteItem={deleteItem}
                         completeItem={completeItem}/>
-                }
+
             </View>
     );
 }

@@ -10,21 +10,21 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 20
     },
     li: {
-        width: '40%'
+        width: '50%'
     },
     delete: {
         backgroundColor: "red",
         borderRadius: 50,
-        height: 40,
-        width: 40,
+        height: 30,
+        width: 30,
         justifyContent: "center",
         alignItems: "center",
     },
     complete: {
         backgroundColor: "#23ab00",
         borderRadius: 50,
-        height: 40,
-        width: 40,
+        height: 30,
+        width: 30,
         justifyContent: "center",
         alignItems: "center",
         marginRight: 10

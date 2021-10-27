@@ -12,5 +12,19 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 15,
         paddingVertical: 5,
         color: '#fff',
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center"
     },
+    btnHeader: {
+        backgroundColor: '#fff',
+        paddingHorizontal: 10,
+        paddingTop: 12,
+        paddingBottom: 15,
+        borderRadius: 3
+    },
+    btnText: {
+        color: '#000'
+
+    }
 });

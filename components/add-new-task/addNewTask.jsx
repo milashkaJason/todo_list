@@ -10,7 +10,6 @@ export function AddNewTask({
                                onChangeText,
                                pushItem,
                                is_render_data_piker,
-                               chosenDate,
                                setChangedDate,
                                changeIsRenderDataPiker,
                                currentValue,
@@ -33,14 +32,14 @@ export function AddNewTask({
                     <Button
                         style={styles.button}
                         onPress={pushItem}
-                        title={'Press'}
+                        title={'Создать'}
                         color={'#d93535'}
                     />
                 </View>
             </View>
             {is_render_data_piker && <DateTimePicker
                 testID="dateTimePicker"
-                value={chosenDate}
+                value={new Date()}
                 mode={'data'}
                 display="default"
                 onChange={setChangedDate}

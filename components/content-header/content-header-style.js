@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
         fontSize: 17,
         color: '#000',
         marginTop: 15,
-        marginBottom: 15
+        marginBottom: 15,
     },
     addTodo: {
         alignSelf: 'center',
@@ -15,6 +15,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         marginLeft: 20,
+        borderRadius: 5
 
     },
     addTodoIcon: {
@@ -23,5 +24,5 @@ export const styles = StyleSheet.create({
     },
     titleContainer: {
         flexDirection: "row",
-    }
+    },
 });
